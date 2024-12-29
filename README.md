@@ -1,5 +1,5 @@
 ## 🔑 PasswordPal
-A terminal run application that allows you to store your emails, password and account information.
+A tool to store emails and passwords. Run as an app from Terminal.
 
 ## 📖 How to Use
 1. Install Python
