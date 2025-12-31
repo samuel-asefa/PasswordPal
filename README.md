@@ -1,9 +1,22 @@
-## 🔑 PasswordPal
-A tool to store emails and passwords. Run as an app from Terminal.
+## PasswordPal
+A tool to store emails and passwords with a modern interface.
 
-## 📖 How to Use
-1. Install Python
-2. Download the latest package
-3. Customize the Password in a code/text editor
+## Features
+- Master password protection
+- Show/hide passwords
+- Copy to clipboard
+- Clean, easy-to-use interface
+
+## How to Use
+1. Install Python 3
+2. Download PasswordPal
+3. Change the master password in `main.py` (line 23: `access = 'password'`)
 4. Navigate to the PasswordPal folder in Terminal
-5. Open the Application by running ```.\main.py```
+5. Run: `python3 main.py`
+
+## Security Note
+This uses basic character shifting for encoding. For sensitive data, consider using a more robust password manager.
+
+## Files
+- `main.py` - Main application
+- `emails.txt` - Encrypted storage file (auto-generated)
